@@ -4,9 +4,14 @@ using namespace std;
 
 int main()
 {
-	std::cout << "Hello world" << std::endl;
-	int Num = 100;
-	std::cout << Num << std::endl;
-	std::cout << "Push";
+	// int float char
+	// + - / * % 
+	char Ch = 65;	//Byte
+
+	cout << (char)(Ch + 2) << endl;
+	cout << (char)(Ch - 2) << endl;
+	cout << (char)(Ch * 2) << endl;
+	cout << (char)(Ch / 2) << endl;
+	
 	return 0;
 }
